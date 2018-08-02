@@ -1,6 +1,7 @@
 {
   "name": "nickdavis/nd-faq",
   "description": "WordPress plugin which creates an FAQ custom post type",
+  "type": "wordpress-plugin",
   "authors": [
     {
       "name": "Nick Davis",
