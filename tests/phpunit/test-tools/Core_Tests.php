@@ -1,5 +1,5 @@
 <?php
-namespace NdFaq\Core;
+namespace NickDavis\FAQ\Core;
 
 /**
  * This is a very basic test case to get things started. You should probably rename this and make
@@ -26,8 +26,8 @@ class Core_Tests extends Base\TestCase {
 	 */
 	public function test_setup() {
 		// Setup
-		\WP_Mock::expectActionAdded( 'init', 'NdFaq\Core\i18n' );
-		\WP_Mock::expectActionAdded( 'init', 'NdFaq\Core\init' );
+		\WP_Mock::expectActionAdded( 'init', 'NickDavis\FAQ\Core\i18n' );
+		\WP_Mock::expectActionAdded( 'init', 'NickDavis\FAQ\Core\init' );
 		\WP_Mock::expectAction( 'nd_faq_loaded' );
 
 		// Act

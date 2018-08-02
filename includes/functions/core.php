@@ -5,7 +5,7 @@
  * @package ThemeScaffold
  */
 
-namespace NdFaq\Core;
+namespace NickDavis\FAQ\Core;
 use \WP_Error as WP_Error;
 
 /**

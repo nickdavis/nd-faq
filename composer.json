@@ -1,18 +1,20 @@
 {
-  "name": "10up/nd-faq",
-  "description": "Nd Faq",
+  "name": "nickdavis/nd-faq",
+  "description": "WordPress plugin which creates an FAQ custom post type",
   "authors": [
     {
-      "name": "Author",
-      "email": "info@10up.com"
+      "name": "Nick Davis",
+      "email": "inbox@nickdavis.co"
     }
   ],
   "require": {
-    "php": ">=7.0"
+    "php": ">=7.0",
+    "htmlburger/carbon-fields": "^2.0",
+    "johnbillion/extended-cpts": "^4.2"
   },
   "autoload": {
     "psr-4": {
-      "NdFaq\\": "includes/classes/"
+      "NickDavis\\FAQ\\": "includes/classes/"
     }
   },
   "require-dev": {

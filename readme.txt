@@ -1,11 +1,11 @@
-=== Nd Faq ===
-Contributors:      10up
+=== ND FAQ ===
+Contributors:      nickdavis
 Tags: 
 Requires at least: 4.9
 Tested up to:      4.9
 Stable tag:        0.1.0
 
-A brief description of the plugin.
+WordPress plugin which creates an FAQ custom post type.
 
 == Description ==
 

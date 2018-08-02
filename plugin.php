@@ -1,11 +1,11 @@
 <?php
 /**
- * Plugin Name: NdFaq
+ * Plugin Name: ND FAQ
  * Plugin URI:
- * Description:
+ * Description: WordPress plugin which creates an FAQ custom post type.
  * Version:     0.1.0
- * Author:      10up
- * Author URI:  https://10up.com
+ * Author:      Nick Davis
+ * Author URI:  http://nickdavis.com
  * Text Domain: nd-faq
  * Domain Path: /languages
  *
@@ -23,8 +23,8 @@ require_once ND_FAQ_INC . 'functions/core.php';
 
 
 // Activation/Deactivation
-register_activation_hook( __FILE__, '\NdFaq\Core\activate' );
-register_deactivation_hook( __FILE__, '\NdFaq\Core\deactivate' );
+register_activation_hook( __FILE__, '\NickDavis\FAQ\Core\activate' );
+register_deactivation_hook( __FILE__, '\NickDavis\FAQ\Core\deactivate' );
 
 // Bootstrap
-NdFaq\Core\setup();
+NickDavis\FAQ\Core\setup();
