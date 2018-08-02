@@ -10,7 +10,6 @@
   ],
   "require": {
     "php": ">=7.0",
-    "htmlburger/carbon-fields": "^2.0",
     "johnbillion/extended-cpts": "^4.2"
   },
   "autoload": {
