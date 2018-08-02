@@ -6,6 +6,7 @@
  */
 
 namespace NickDavis\FAQ\Core;
+use NickDavis\FAQ\FAQ;
 use \WP_Error as WP_Error;
 
 /**
@@ -49,6 +50,8 @@ function i18n() {
  */
 function init() {
 	do_action( 'nd_faq_init' );
+
+	( new FAQ )->register();
 }
 
 /**
