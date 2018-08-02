@@ -1,9 +1,12 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Nick
- * Date: 02/08/2018
- * Time: 19:56
+ * FAQ
+ *
+ * @package     NickDavis\FAQ
+ * @since       0.1.0
+ * @author      Nick Davis
+ * @link        http://nickdavis.co
+ * @license     GNU General Public License 2.0+
  */
 
 namespace NickDavis\FAQ;
