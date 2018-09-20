@@ -15,6 +15,7 @@ namespace NickDavis\FAQ;
 class FAQ {
 	public function register() {
 		add_action( 'init', [ $this, 'register_cpt' ], 11 );
+		add_action( 'init', [ $this, 'register_taxonomy' ], 11 );
 	}
 
 	public function register_cpt() {
@@ -32,6 +33,20 @@ class FAQ {
 				'singular' => 'FAQ',
 				'plural'   => 'FAQs',
 				'slug'     => 'faq',
+			]
+		);
+	}
+
+	public function register_taxonomy() {
+		register_extended_taxonomy(
+			'faq-category',
+			'nd-faq',
+			[],
+			[
+				// Overrides the base names used for labels.
+				'singular' => 'FAQ Category',
+				'plural'   => 'FAQ Categories',
+				'slug'     => 'faq-category',
 			]
 		);
 	}
