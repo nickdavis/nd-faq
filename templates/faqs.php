@@ -1,10 +1,6 @@
 <div class="faq_block">
 	<div class="contain mid">
-
-		<?php if ( ! empty( esc_html( $title ) ) ) : ?>
-			<h3><?= esc_html( $title ); ?></h3>
-		<?php endif; ?>
-
+		
 		<?php if ( $query->have_posts() ) : ?>
 			<div class="faq_list">
 				<?php while ( $query->have_posts() ) :$query->the_post(); ?>
